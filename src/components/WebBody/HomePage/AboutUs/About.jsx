@@ -8,18 +8,18 @@ import { FaBinoculars } from 'react-icons/fa';
 
 const timelineData = [
   {
-    date: "2024",
+    date: "2022",
     title: "Our Vision",
     location: "",
-    description: "To inspire growth and empower individuals and organizations by providing world-class training and consultancy services, helping them reach their full potential.",
+    description: "To inspire and empower individuals to achieve their dreams of studying, working, and living abroad through expert advice and support.",
     icon: <FaBinoculars />,
     background: 'rgb(0, 188, 212)', // Cyan color that contrasts well with black
   },
   {
-    date: "2024",
+    date: "2023",
     title: "Our Mission",
     location: "",
-    description: "To deliver tailored solutions that address unique challenges, enabling our clients to achieve their goals and thrive in an ever-changing global environment.",
+    description: "To simplify the complexities of visa processes and opportunities, providing personalized solutions for students, professionals, and travelers.",
     icon: <ArrowBigLeftIcon />,
     background: 'rgb(63, 81, 181)', // Indigo color that contrasts well with black
   },
@@ -27,7 +27,7 @@ const timelineData = [
     date: "2024",
     title: "Our Work Process",
     location: "",
-    description: "Our structured and client-focused process ensures seamless collaboration, from understanding your needs to delivering impactful solutions with measurable results.",
+    description: "We combine years of experience with a client-centric approach, ensuring a seamless journey from consultation to successful outcomes.",
     icon: <LucideWorkflow />,
     background: 'rgb(103, 58, 183)', // Deep purple color that contrasts well with black
   },
@@ -35,43 +35,44 @@ const timelineData = [
     date: "2025",
     title: "Client Success Stories",
     location: "",
-    description: "We take pride in the achievements of our clients, showcasing their success stories as a testament to our dedication and the effectiveness of our services.",
+    description: "Celebrating the success of our clients as they achieve their dreams of studying, working, or living abroad, backed by our expert support.",
     icon: <LucideStar />,
     background: 'rgb(255, 193, 7)', // Yellow color that contrasts well with black
   },
-    {
-      date: "2025",
-      title: "Expanding Services",
-      location: "",
-      description: "We expanded our service offerings to include advanced analytics, content creation, and influencer marketing to meet the growing needs of our clients.",
-      icon: <LucideTrendingUp />,
-      background: 'rgb(76, 175, 80)', // Green color that contrasts well with black
-    },
-    {
-      date: "2026",
-      title: "Innovative Solutions",
-      location: "",
-      description: "Introduced AI-driven tools and automation to enhance the efficiency and effectiveness of our digital marketing campaigns.",
-      icon: <LucideZap />,
-      background: 'rgb(244, 67, 54)', // Red color that contrasts well with black
-    },
-    {
-      date: "2026",
-      title: "Global Reach",
-      location: "",
-      description: "Expanded our reach to global markets, offering our digital marketing expertise to businesses around the world.",
-      icon: <LucideGlobe />,
-      background: 'rgb(156, 39, 176)', // Purple color that contrasts well with black
-    },
-    {
-      date: "2027",
-      title: "Awards & Recognition",
-      location: "",
-      description: "Received industry awards and recognition for our innovative strategies and outstanding results in digital marketing.",
-      icon: <LucideAward />,
-      background: 'rgb(255, 87, 34)', // Orange color that contrasts well with black
-    },
+  {
+    date: "2025",
+    title: "Expanding Services",
+    location: "",
+    description: "Launched additional services, including career counseling, cultural adaptation training, and job placement support for global opportunities.",
+    icon: <LucideTrendingUp />,
+    background: 'rgb(76, 175, 80)', // Green color that contrasts well with black
+  },
+  {
+    date: "2025",
+    title: "Innovative Solutions",
+    location: "",
+    description: "Introduced digital tools and AI-driven insights to streamline the visa process and enhance success rates for our clients.",
+    icon: <LucideZap />,
+    background: 'rgb(244, 67, 54)', // Red color that contrasts well with black
+  },
+  {
+    date: "2025",
+    title: "Global Reach",
+    location: "",
+    description: "Expanded our presence across multiple countries, providing comprehensive support to clients worldwide.",
+    icon: <LucideGlobe />,
+    background: 'rgb(156, 39, 176)', // Purple color that contrasts well with black
+  },
+  {
+    date: "2025",
+    title: "Awards & Recognition",
+    location: "",
+    description: "Honored with industry awards for our excellence in consultancy and our commitment to client success.",
+    icon: <LucideAward />,
+    background: 'rgb(255, 87, 34)', // Orange color that contrasts well with black
+  },
 ];
+
 
 
 

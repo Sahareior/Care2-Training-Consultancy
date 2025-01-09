@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div>
             <footer className="bg-neutral text-neutral-content py-10 px-5 mt-8">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 place-items-start">
+            <div className="container mx-auto grid grid-cols-1 justify-items-center md:grid-cols-3 gap-8 place-items-start">
 
                     
                     {/* Column 1: Company Info */}
@@ -19,10 +20,10 @@ const Footer = () => {
                     <div className='hidden md:block'>
                         <h2 className="text-xl font-bold mb-4">Quick Links</h2>
                         <ul className="space-y-2">
-                            <li><a href="#" className="hover:underline">Home</a></li>
-                            <li><a href="#" className="hover:underline">About Us</a></li>
-                            <li><a href="#" className="hover:underline">Services</a></li>
-                            <li><a href="#" className="hover:underline">Contact</a></li>
+                            <li><Link href="#" className="hover:underline">Home</Link></li>
+                            <li><Link href="#" className="hover:underline">About Us</Link></li>
+                            <li><Link to="/privacy" className="hover:underline">Privacy Policy</Link></li>
+                            <li><Link to="/terms" className="hover:underline">Terms of Service</Link></li>
                         </ul>
                     </div>
 

@@ -1,0 +1,121 @@
+/* Future tech background */
+.future-tech-bg {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    color: #ffffff;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.a{
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    color: #ffffff;
+}
+/* Neon effect for headings */
+.neon-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 10px #00e6e6, 0 0 20px #00e6e6, 0 0 30px #00e6e6, 0 0 40px #00e6e6;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Floating cards effect */
+.about-card {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.about-card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.about-card:hover .neon-spark {
+    animation: rotate 5s linear infinite;
+}
+
+/* Neon spark effect */
+.neon-spark {
+    position: absolute;
+    display: none;
+    width: 8px;
+    top: 0;
+    height: 8px;
+    background: #e0f5f5;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00e6e6, 0 0 20px #00e6e6, 0 0 30px #00e6e6, 0 0 40px #00e6e6;
+    animation: none;
+    opacity: 0.8;
+}
+
+.about-card:hover .neon-spark {
+    display: block;
+    animation: rotate 4s linear infinite;
+}
+
+/* Rotating neon spark animation */
+@keyframes rotate {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    50% {
+        top: 100%;
+        left: 100%;
+        transform: translate(-100%, -100%);
+    }
+    75% {
+        top: 100%;
+        left: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+/* Card content styling */
+.team-info h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.team-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .future-tech-bg {
+        padding: 2rem 1rem;
+    }
+
+    .neon-heading {
+        font-size: 2rem;
+    }
+
+    .about-card {
+        width: 90%;
+        margin: 1rem auto;
+    }
+}

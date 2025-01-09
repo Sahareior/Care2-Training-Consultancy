@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "category": "website seo",
+        "image": "https://images.unsplash.com/photo-1722218530661-19e1c5b37dcc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"
+    },
+    {
+        "id": 2,
+        "category": "youtube seo",
+        "image": "https://images.unsplash.com/photo-1722082839802-18b18cb23a62?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+    },
+    {
+        "id": 3,
+        "category": "web_developing",
+        "image": "https://plus.unsplash.com/premium_photo-1722593055562-6ab029ece066?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8"
+    },
+    {
+        "id": 4,
+        "category": "facebook_ads",
+        "image": "https://images.unsplash.com/photo-1722578601838-ee1439b17d50?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8"
+    },
+    {
+        "id": 5,
+        "category": "instagram marketing",
+        "image": "https://images.unsplash.com/photo-1722694144881-4a982f0bf596?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 6,
+        "category": "google ads",
+        "image": "https://images.unsplash.com/photo-1722906774399-8aa99c8006b1?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]

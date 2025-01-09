@@ -23,7 +23,7 @@ const MainPageL = () => {
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Care2 Training Consultancy",
-      url: "https://your-website-url.com",
+      url: "https://care2.netlify.app/",
       logo: "https://your-website-url.com/images/logo.png",
       description: "Care2 Training Consultancy is committed to empowering individuals and organizations with tailored training programs, expert guidance, and knowledge to help you achieve your goals with confidence.",
       contactPoint: {

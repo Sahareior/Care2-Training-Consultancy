@@ -31,7 +31,7 @@ const services = [
         <div id='services' className='bg-[#2ab76504] min-h-screen '>
             <div className='mt-5'>
 <Heading text={"Services"} />
-<h3 className='text-center font-bold italic font1 px-4 text-white mt-3 text-2xl md:text-4xl'>The Services Neon Net Provides</h3>
+<h3 className='text-center font-bold italic font1 px-4 text-white mt-3 text-2xl md:text-4xl'>The Services Care2 Provides</h3>
 <div  className='grid md:grid-cols-3 justify-items-center  mt-16'>
 {
     services.map(items => <ServiceCard key={items.icon} Icon={items.icon} title={items.title} descriptions= {items.descriptions} />)

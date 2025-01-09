@@ -1,8 +1,13 @@
-# React + Vite
+Live Link
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Check out the live version of the web app: https://care2.netlify.app/
 
-Currently, two official plugins are available:
+How to Run This Web App?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.Clone the Repository:
+  Clone the repository to your local machine:
+
+2.Install Dependencies
+Open the terminal and run the following command to install the required dependencies:
+ npm install --force  
+
